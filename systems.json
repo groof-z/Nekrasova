@@ -1,0 +1,370 @@
+{
+   "systems": {
+      "SNSDEMO.LOCAL":{
+        "SNSDEMO-sv.accountant":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"accountant-user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_2",
+            "client_class":"class_2",
+            "user":"accountant-user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"accountant-user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"accountant-user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSDEMO-sv.managers":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSDEMO-sv.security":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSDEMO-sv.financiers":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ]
+      },
+      "SNSKARL.LOCAL":{
+        "SNSKARL-sv.accountant":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSKARL-sv.managers":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSKARL-sv.security":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSKARL-sv.financiers":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ]
+      },
+      "SNSLUKA.LOCAL":{
+        "SNSLUKA-sv.accountant":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSLUKA-sv.managers":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSLUKA-sv.security":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ],
+        "SNSLUKA-sv.financiers":[
+          {
+            "PC":"PC_NUM_1",
+            "client_class":"class_1",
+            "user":"user1",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM2_",
+            "client_class":"class_2",
+            "user":"user2",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_3",
+            "client_class":"class_3",
+            "user":"user3",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          },
+          {
+            "PC":"PC_NUM_4",
+            "client_class":"class_4",
+            "user":"user4",
+            "time_ping":"01.02.2000 08:00",
+            "time_close":"01.02.2000 10:35"
+          }
+        ]
+      }
+   }
+}

@@ -1,7 +1,6 @@
 import tkinter as tk
 import random
 from tkinter import ttk
-from PIL import Image
 import json
 
 
@@ -154,13 +153,22 @@ class App(tk.Tk):
         
         treeview = tv
 
-        # for item in subsys_list:
-        #     self.treeview.insert('', 0, text=item["PC"], values=(item["client_class"], item["user"], item["time_ping"], item["time_close"]))
+        try:
+            file_plans = open("plans.json", "r", encoding=("utf-8"))
+            plans_list = file_plans.read()
+            plans_list = json.loads(plans_list)
+            file_plans.close()
+
+            for item in plans_list:
+                treeview.insert('', 0, text=item[0], values=(item[1], item[2], item[3], "Удалить"))
+        except json.decoder.JSONDecodeError as err:
+            print("ERROR - ошибка открытия", err)
+        
         ButAddPlan = ttk.Button(confFrame, text="Добавить", command= lambda: self.addPlan(treeview)).pack(side="left", fill='both', expand=True)
         tv.pack(side="top", fill="both", expand=True)
 
 
-
+    # Создание окна Планировщика задач
     def addPlan(self, planner):
         window = tk.Toplevel(self)
         window.geometry("720x300+300+150")
@@ -199,14 +207,25 @@ class App(tk.Tk):
 
 
     def beginSetPlan(self, window, planner, c1, c2, c3, c4):
+        try:
+            file_plans = open("plans.json", "r", encoding=("utf-8"))
+            plans_list = file_plans.read()
+            file_plans.close()
+            plans_list = json.loads(plans_list)
+        except json.decoder.JSONDecodeError as err:
+            print("ERROR - ошибка открытия", err)
+            plans_list = []
+
         c1 = c1.get()
-        print(c1)
         c2 = c2.get()
-        print(c2)
         c3 = c3.get()
-        print(c3)
         c4 = c4.get()
-        print(c4)
+        plans_list.append([c1, c2, c3, c4])
+
+        file_plans = open("plans.json", "w", encoding=("utf-8"))
+        json.dump(plans_list, file_plans)
+        file_plans.close()
+
         item = planner.insert('', 0, text=c1, values=(c2, c3, c4, "Удалить"))
         window.destroy()
 

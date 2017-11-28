@@ -3,7 +3,6 @@ import random
 from tkinter import ttk
 import json
 
-
 import datetime
 import random
 
@@ -16,7 +15,14 @@ os.system("cls")
 WIDTH = 200
 HEIGHT = 200
 
+FileInDir = os.listdir(path="./")
+if not "plans.json" in FileInDir:
+    file = open("plans.json", "w")
+    file.close()
 
+if not "systems.json" in FileInDir:
+    file = open("systems.json", "w")
+    file.close()
 
 class App(tk.Tk):
     def __init__(self, *argv, **kwargv):
@@ -33,12 +39,17 @@ class App(tk.Tk):
         self.C_FONT_ON_ELEMENT = self.C_BG
 
         # DATA
-        openfile = open("systems.json", "r")
-        file_json = openfile.read()
-        openfile.close()
-        file_json = json.loads(file_json)
-        
-        self.data_systems = file_json["systems"]
+        try:
+            openfile = open("systems.json", "r")
+            file_json = openfile.read()
+            openfile.close()
+            file_json = json.loads(file_json)
+            
+            self.data_systems = file_json["systems"]
+        except json.decoder.JSONDecodeError as err:
+            print("ERROR - ошибка открытия", err)
+            self.data_systems = Dict()
+
 
 
         # STYLE ===========================
@@ -66,8 +77,6 @@ class App(tk.Tk):
         OneMenu.add_command(label="Данные о текущем состоянии объектов")
         OneMenu.add_command(label="Пользователи")
         OneMenu.add_command(label="Устройства")
-
-        self.planner()
          
         TwoMenu = tk.Menu(m, tearoff=0) #второй пункт меню
         m.add_cascade(label="Дополнительно",menu=TwoMenu)
